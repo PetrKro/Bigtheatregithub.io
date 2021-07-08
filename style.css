@@ -1,0 +1,365 @@
+@font-face {
+    font-family: "opensanscondensedbold";
+    src: url("fonts/opensanscondensedbold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "opensanscondensedlight";
+    src: url("fonts/opensanscondlight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "opensans";
+    src: url("fonts/opensans.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+/*top section */
+
+
+
+a {
+    text-decoration: none;
+}
+
+.top {
+    background-image: url(img/Rectangle\ 3\ \(1\).png);
+    width: 1920px;
+    height: 1045px;
+}
+
+.top_nav {
+    margin: 50px 405px 0px 405px;
+}
+ul li {
+    display: inline;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-right: 63px;
+}
+
+.top_navul {
+width: 1200px;
+}
+
+.button {
+   font-family: opensanscondensedbold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.button2 {
+    font-family: opensanscondensedbold;
+    font-style: normal;
+    font-size: 16px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-left: 100px;
+    border-bottom: 2px solid #D1A954;
+}
+
+/* Aside block */
+.aside {
+    margin: 0px;
+    width: 150px;
+    height: 1045px;
+    background: rgba(51, 51, 51, 0.75);
+    ;
+}
+
+.aside_nav {
+    width: 150px;
+    height: 1045px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.aside_nav_youtube {
+    margin: 30px 60px 86px 64px;
+}
+
+.aside_nav_vk {
+    margin: 30px 60px 30px 64px;
+}
+
+.aside_nav_fb {
+    margin: 30px 66px 30px 69px;
+}
+
+.aside_nav_inst {
+    margin: 40px 60px 30px 64px;
+}
+
+.aside_nav_line {
+    margin: 40px 75px 75px 40px;
+    width: 74px;
+    height: 0px;
+    border: 3px solid #C4C4C4;
+    transform: rotate(90deg);
+    color: #C4C4C4;
+}
+
+.aside_nav_contact {
+    width: 245px;
+    height: 25px;
+    font-family: opensanscondensedbold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #C4C4C4;
+    transform: rotate(-90deg);
+    margin: 383px 63px 160px 62px;
+}
+
+/* top information */
+
+.top_infobox_wrapper{
+    display: flex;
+    width: 1200px;
+    margin-left:405px ;
+}
+
+.top_infobox {
+    color: #FFFFFF;
+    width: 545px;
+    height: 305px;
+    margin: 308px 135px 365px 0px;
+
+}
+
+h1 {
+    width: 540px;
+    font-family: opensanscondensedbold;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 87px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+margin-bottom: 50px;
+}
+
+p {
+    font-family: opensans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+margin-top: 0px;
+margin-bottom: 49px;
+}
+
+.top_infobox_button {
+    list-style: none;
+    width: 160px;
+height: 50px;
+background: #D1A954;
+border: none;
+}
+
+.top_infobox_buttontext {
+    width: 65px;
+    font-family: opensanscondensedbold;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #FFFFFF;
+margin: 0px 47px;
+}
+
+.top_infobox_slider {
+    height: 510;
+    width: 370px;
+    margin: 191px 480px 268px 0px;
+}
+
+/* mid section */
+.mid {
+    width: 1920px;
+    height: 922px;
+    background: #333333;
+    color: #FFFFFF;
+}
+
+.mid_info{
+    margin: 0px 871px 100px 872px;
+    font-family: opensanscondensedlight;
+    font-style: light;
+    font-size: 48px;
+    line-height: 65px;
+    vertical-align: top;
+    letter-spacing: 10%;
+    text-transform: uppercase;
+}
+
+.mid_0letter{
+    color:#D1A954;
+}
+
+.midbox {
+    height: 300px;
+    width: 1110px;
+    display: flex;
+    margin: 0px 405px;
+    
+}
+
+.midbox_leftblock {
+width: 450px;
+height: 275px;
+margin-right: 30px;
+}
+
+.midbox_leftblocktext1 {
+font-family: opensanscondensedbold;
+font-size: 21px;
+line-height: 29px;
+letter-spacing: 10%;
+text-transform: uppercase;
+}
+
+.midbox_leftblocktext2 {
+    width: 445px;
+    height: 210px;
+    font-family: opensans;
+    font-size: 14px;
+    line-height: 21px;
+    }
+
+
+    .midbox_leftblocktext3{
+        font-family: opensanscondensedbold;
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+
+    .midbox_middleblock {
+        width: 255px;
+    }
+
+    .midbox_middleblock_img1 {
+        margin-bottom: 15px;
+    }
+
+    .mid_info_bottom{
+        margin: 150px 761px 0px 761px;
+        font-family: opensanscondensedlight;
+        font-style: light;
+        font-size: 48px;
+        line-height: 65px;
+        vertical-align: top;
+        letter-spacing: 10%;
+        text-transform: uppercase;
+    }
+    
+    .mid_0letter{
+        color:#D1A954;
+    }
+
+.mid2 {
+width: 1920px;
+background: #333333;
+color: #FFFFFF;;
+}
+
+.mid2box{
+    margin-left: 150px;
+    display: flex;
+}
+
+.mid2box2 {
+    background-image: url(img/Rectangle\ 28.png);
+    width: 1110px;
+    height: 550px;
+    margin: 150px 405px 0px 405px ;
+    display: flex;
+}
+
+.mid2box2_left {
+    width: 182px;
+    height: 298px;
+    margin: 126px 103px 126px 190px;
+}
+
+.mid2box2_left2018 {
+    font-family:opensanscondensedbold ;
+    font-style: bold;
+    font-size: 78px;
+    line-height: 98px;
+    letter-spacing: 10%;
+    color: #D1A954;
+    margin: 10px 10px;
+}
+
+.mid2box2_right {
+    margin: 174px 95px 181px 0px;
+}
+
+.mid2box2_right_starbox {
+    display: flex;
+}
+
+.mid2box2_right_textbox {
+    width: 540px;
+    height: 200px;
+    font-family: opensans;
+    font-style: bold;
+    font-size: 36px;
+    line-height: 54px;
+}
+
+.star {
+    margin-right: 25px;
+}
+
+.bottom {
+    width: 1920px;
+    background: #333333;
+    color: #FFFFFF;
+}
+
+.midbox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo {
+    margin-right: 75px;
+}
+
+.bot_info {
+margin: 0px 781px 100px 781px;
+font-family: opensanscondensedlight;
+font-style: light;
+font-size: 48px;
+line-height: 65px;
+vertical-align: top;
+letter-spacing: 10%;
+text-transform: uppercase;
+}
